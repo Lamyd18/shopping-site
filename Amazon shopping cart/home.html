@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>0tubee shopping cart</title>
+</head>
+<body>
+  <div class="pb-20">
+    <nav class="w-full px-6 py-2 bg-black flex flex-row justify-between items-center fixed">
+      <a href="./home.html">
+        <div class="hover:border active:w-32 px-1 py-2 cursor-pointer">
+          <div id="head" class="w-auto flex flex-row justify-between items-center">
+            <p class="text-red-900 font-bold text-3xl">O<span class="text-blue-900 font-bold text-3xl">T</span><span class="text-orange-900 font-bold text-3xl">U</span><span class="text-green-900 font-bold text-3xl">~</span><span class="text-purple-900 font-bold text-3xl">B</span></p>
+          </div>
+        </div>
+      </a>
+      
+      <div class="flex w-full mx-2">
+        <input class="h-12 w-full rounded-sm outline-0 pl-3" type="text" placeholder="Search">
+        <button class="w-12 h-13 p-2 border bg-yellow-600 rounded-sm">
+          <img src="./images/icons/search-icon.png" alt="icon">
+        </button>
+      </div>
+      <a href="./place orders.html">
+        <div class="hover:border active:w-24 py-2 px-1 cursor-pointer">
+          <div class="leading-4 font-bold text-white">
+            Returns <br>
+            <span class="ml-3">&Orders</span> 
+          </div>
+        </div>
+      </a>
+      
+      <a href="./checkout.html">
+        <div class="hover:border active:w-24 px-1 py-1 ml-1 cursor-pointer">
+          <div class="relative">
+            <div class="flex">
+              <div class="w-12">
+                <img src="./images/icons/cart-icon.png" alt="">
+              </div>
+              <div class="font-bold text-white mt-4">
+                Cart
+              </div>
+            </div>
+            
+            <div id="cartCount" class="bottom-5 right-12 text-xl font-semibold text-white absolute text-yellow-600">
+              0
+            </div>
+          </div>
+        </div>
+      </a>
+      
+    </nav>
+  </div>
+
+  <div class="">
+    <div id="productContainer" class="w-auto flex flex-wrap justify-center">
+    </div>
+  </div>
+</body>
+<script src="./products.js"></script>
+<script src="./cart.js"></script>
+<script src="./home.js"></script>
+</html>

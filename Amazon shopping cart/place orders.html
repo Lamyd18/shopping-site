@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="pb-20">
+    <nav class="w-full px-6 py-2 bg-black flex flex-row justify-between items-center fixed">
+      <a href="./home.html">
+        <div class="hover:border px-1 py-2 cursor-pointer">
+          <div id="head" class="w-auto flex flex-row justify-between items-center">
+            <p class="text-red-900 font-bold text-3xl">O<span class="text-blue-900 font-bold text-3xl">T</span><span class="text-orange-900 font-bold text-3xl">U</span><span class="text-green-900 font-bold text-3xl">~</span><span class="text-purple-900 font-bold text-3xl">B</span></p>
+          </div>
+        </div>
+      </a>
+      
+      <div class="flex w-full mx-2">
+        <input class="h-12 w-full rounded-sm outline-0 pl-3" type="text" placeholder="Search">
+        <button class="w-12 h-13 p-2 border bg-yellow-600 rounded-sm">
+          <img src="./images/icons/search-icon.png" alt="icon">
+        </button>
+      </div>
+      <a href="./place orders.html">
+        <div class="hover:border py-2 px-1 cursor-pointer">
+          <div class="leading-4 font-bold text-white">
+            Returns <br>
+            <span class="ml-3">&Orders</span> 
+          </div>
+        </div>
+      </a>
+      
+      <a href="./checkout.html">
+        <div class="hover:border px-1 py-1 ml-1 cursor-pointer">
+          <div class="relative">
+            <div class="flex">
+              <div class="w-12">
+                <img src="./images/icons/cart-icon.png" alt="">
+              </div>
+              <div class="font-bold text-white mt-4">
+                Cart
+              </div>
+            </div>
+            
+            <div class="bottom-5 right-12 text-xl font-semibold text-white absolute text-yellow-600">
+              3
+            </div>
+          </div>
+        </div>
+      </a>
+    </nav>
+  </div>
+
+  <div class="mt-12 w-auto flex justify-center">
+    <div class="text-2xl w-auto flex  font-bold mb-8">
+      Your Orders
+    </div>
+  </div>
+  
+  <div class="flex flex-col">
+    <div class="mb-12 flex w-auto items-center justify-center">
+      <div class="w-11/12 pb-12 border">
+        <div class="w-auto mb-11 px-6 py-4 flex flex-col md:flex-row bg-slate-200 justify-between border ">
+          <div class="flex flex-row md:flex-col">
+            <div class="font-semibold mr-1">
+              Order Placed:
+            </div>
+            <div>
+              August 12
+            </div>
+          </div>
+          <div class="flex flex-row md:flex-col">
+            <div class="font-semibold mr-1">
+              Total:
+            </div>
+            <div>
+              $35.06
+            </div>
+          </div>
+          <div class="flex flex-row md:flex-col">
+            <div class="font-semibold shrink-0 mr-1 ">
+              Order ID:
+            </div>
+            <div class="shrink-0">
+              27cba69d-4c3d-4098-b42d-ac7fa62b7664
+            </div>
+          </div>
+        </div>
+        <div class="w-auto px-6 mb-12 flex flex-row space-x-12">
+          <div class="w-32 h-32">
+            <img src="./images/products/athletic-cotton-socks-6-pairs.jpg" alt="">
+          </div>
+          <div class="flex flex-col w-full justify-between md:flex-row space-y-4">
+            <div class="flex flex-col">
+              <div class="font-bold">
+                Black and Gray Athletic Cotton Socks -6 Pairs
+              </div>
+              <div>
+                Arriving on: August 15 <br> Quantity: 1
+              </div>
+              <div class="w-36 mt-2 bg-yellow-500 hover:bg-yellow-600 flex flex-row px-2 py-1 rounded-lg cursor-pointer">
+                <div class="flex justify-center items-center">
+                  <img class="w-8" src="./images/icons/buy-again.png" alt="">
+                  <button>Buy it again</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="w-36 h-9 bg-gray-100 hover:bg-gray-200 cursor-pointer rounded-lg shrink-0 text-center px-3 py-1">
+              <button>Track package</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-auto px-6 flex flex-row space-x-12">
+          <div class="w-32 h-32">
+            <img src="./images/products/athletic-cotton-socks-6-pairs.jpg" alt="">
+          </div>
+          <div class="flex flex-col w-full justify-between md:flex-row space-y-4">
+            <div class="flex flex-col">
+              <div class="font-bold">
+                Black and Gray Athletic Cotton Socks -6 Pairs
+              </div>
+              <div>
+                Arriving on: August 15 <br> Quantity: 1
+              </div>
+              <div class="w-36 mt-2 bg-yellow-500 hover:bg-yellow-600 flex flex-row px-2 py-1 rounded-lg cursor-pointer">
+                <div class="flex justify-center items-center">
+                  <img class="w-8" src="./images/icons/buy-again.png" alt="">
+                  <button>Buy it again</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="w-36 h-9 bg-gray-100 hover:bg-gray-200 cursor-pointer rounded-lg shrink-0 text-center px-3 py-1">
+              <button>Track package</button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+    <div class="flex w-auto items-center justify-center">
+      <div class="w-11/12 pb-12 border">
+        <div class="w-auto mb-11 px-6 py-4 flex flex-col md:flex-row bg-slate-200 justify-between border ">
+          <div class="flex flex-row md:flex-col">
+            <div class="font-semibold mr-1">
+              Order Placed:
+            </div>
+            <div>
+              August 12
+            </div>
+          </div>
+          <div class="flex flex-row md:flex-col">
+            <div class="font-semibold mr-1">
+              Total:
+            </div>
+            <div>
+              $35.06
+            </div>
+          </div>
+          <div class="flex flex-row md:flex-col">
+            <div class="font-semibold shrink-0 mr-1 ">
+              Order ID:
+            </div>
+            <div class="shrink-0">
+              27cba69d-4c3d-4098-b42d-ac7fa62b7664
+            </div>
+          </div>
+        </div>
+        <div class="w-auto px-6 mb-12 flex flex-row space-x-12">
+          <div class="w-32 h-32">
+            <img src="./images/products/athletic-cotton-socks-6-pairs.jpg" alt="">
+          </div>
+          <div class="flex flex-col w-full justify-between md:flex-row space-y-4">
+            <div class="flex flex-col">
+              <div class="font-bold">
+                Black and Gray Athletic Cotton Socks -6 Pairs
+              </div>
+              <div>
+                Arriving on: August 15 <br> Quantity: 1
+              </div>
+              <div class="w-36 mt-2 bg-yellow-500 hover:bg-yellow-600 flex flex-row px-2 py-1 rounded-lg cursor-pointer">
+                <div class="flex justify-center items-center">
+                  <img class="w-8" src="./images/icons/buy-again.png" alt="">
+                  <button>Buy it again</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="w-36 h-9 bg-gray-100 hover:bg-gray-200 cursor-pointer rounded-lg shrink-0 text-center px-3 py-1">
+              <button>Track package</button>
+            </div>
+          </div>
+        </div>
+      </div>     
+    </div>
+  </div>  
+</body>
+</html>
